@@ -1,0 +1,38 @@
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+hr {
+  border: 1px solid black;
+  width: 50%;
+}
+main#stage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section#s-currentTime {
+  font-size: 3rem;
+}
+section#s-until {
+  font-size: 2rem;
+}
+section#s-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.destination-holder {
+  width: 50%;
+}
+input#destinationDate {
+  margin-bottom: 20px;
+}
+input.destination-input {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
